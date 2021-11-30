@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    position: 0;
+}
+
+.body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #FFE6D4;
+    overflow-x: hidden;
+}
+
+
+.grid-container {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr
+}
+
+
+@import "header";
+@import "colores";
+@import "section";
+@import "footer";

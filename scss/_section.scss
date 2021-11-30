@@ -1,0 +1,32 @@
+section {
+    margin: 50px
+}
+
+.boton {
+    color: nth ($colores, 1)
+}
+
+.secciones {
+    margin: 1rem;
+    border-radius: 10px;
+    font-family: 'Playfair Display', serif;
+    color: nth($colores, 2);
+}
+
+.carousel {
+    margin-right: 1rem;
+}
+
+.texto1 .texto2 {
+    margin-top: 2rem;
+}
+
+.prod {
+    height: 300px;
+    width: 300px;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+}
